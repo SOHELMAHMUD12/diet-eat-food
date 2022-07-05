@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.container{
+    width: 1200px;
+
+    margin:0 auto;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.flexible-container{
+
+    display: flex;
+    height: 100%;
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 100%;
+    
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+}
+
+/* .banner-title{
+  
+} */
+.orange-color{
+    color: orange;
+}
+
+.food{
+    text-decoration: none;
+    background-image: linear-gradient(yellow, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+   
+    
+}
+
+.aa{
+    margin-bottom: 30px;
+}
+
+.top-banner{
+    background-image: url(images/shapes/7.png);
+    margin-top: 50px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.img-female img {
+    width: 50%;
+}
+
+.img-female{
+   display: flex;
+   justify-content: center;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text h2{
+    text-align: center;
+    
+}
+
+.about-text p{
+        text-align:left;
+}
+
+#recipe1{
+    margin-top: 50px;
+}
+
+.recipe{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.recipe h2{
+    margin: 30px 0;
+
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.img-container-width{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.img-container-width img{
+    width: 450px;
+    height: 308px;
+    margin: 30px;
+}
+
+
+
+.recipe-text{
+    width: 434px;
+    height: 140px;
+    margin-left: 30px;
+}
+
+.followers{
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+}
+.followers h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    padding-top: 100px;
+    color: aqua;
+    
+
+}
+
+footer h2{
+        margin-bottom: 40px;
+}
